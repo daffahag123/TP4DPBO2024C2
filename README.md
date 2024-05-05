@@ -19,9 +19,12 @@ Tabel Youtuber, memiliki beberapa halaman:
 
 Tabel Member, memiliki beberapa halaman:
 1. Halaman Daftar Member
-![image](https://github.com/daffahag123/TP4DPBO2024C2-/assets/135239333/e9ca760e-95ae-494a-a058-d7be6d7a4de3)
+![image](https://github.com/daffahag123/TP4DPBO2024C2-/assets/135239333/8baad223-7eb6-4f6e-85ea-0057b20425fd)
 2. Halaman Tambah Member
 ![image](https://github.com/daffahag123/TP4DPBO2024C2-/assets/135239333/04ff6e7b-9995-44c4-9872-06a5ba559951)
+3. Halaman Ubah Member
+![image](https://github.com/daffahag123/TP4DPBO2024C2-/assets/135239333/8f3aa352-9859-4fef-af0c-ede795b5f71f)
+
 
 
 
