@@ -2,6 +2,10 @@
 
 Saya Daffa Fakhry Anshori dengan NIM 2200337 mengerjakan soal TP 4 dalam Praktikum mata kuliah Desain dan Pemrograman Berbasis Objek, untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamin.
 
+# Desain Program
+
+# Penjelasan Alur
+
 # Dokumentasi Program
 Tabel Channel Youtube, memiliki beberapa halaman:
 1. Halaman Home/Daftar Channel Youtube
