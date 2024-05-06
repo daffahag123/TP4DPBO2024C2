@@ -96,7 +96,9 @@ Dalam aplikasi ini, pengguna diberikan kemudahan untuk mengelola data terkait de
 - Pengguna memiliki opsi untuk menambahkan data member baru, mengedit informasi member yang sudah ada, atau menghapus member dari daftar.
 
 Ketika pengguna memilih tombol "tambah baru", maka program akan menampilkan formulir penambahan data dan pengguna diminta untuk mengisi data baru.
+
 Ketika pengguna memilih tombol "edit", maka program akan menampilkan formulir pengubahan data dan pengguna diminta untuk mengubah data yang sudah ada.
+
 Ketika pengguna memilih tombol "hapus", maka data akan dihapus dari daftar dan database
 
 # Dokumentasi Program
