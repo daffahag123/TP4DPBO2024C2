@@ -7,7 +7,26 @@ Saya Daffa Fakhry Anshori dengan NIM 2200337 mengerjakan soal TP 4 dalam Praktik
 
 # Desain Program
 Pertama untuk membuat program saya mempersiapkan dengan membuat 3 tabel yang akan digunakan nanti yaitu tabel Channel Youtube, tabel Youtuber, dan tabel Member. Berikut beberapa penjelasannya:
+1. Tabel Channel Youtube:
+- id_channel_youtube: Primary key yang menjadi identitas unik untuk setiap channel YouTube.
+- nama_channel_youtube: Kolom yang menyimpan nama dari channel YouTube.
+- id_youtuber: Kolom ini adalah foreign key yang menghubungkan ke tabel Youtuber, merujuk pada id_youtuber.
+- kategori: Kolom yang menyimpan kategori dari channel YouTube.
+- subscriber: Kolom yang menyimpan jumlah subscriber dari channel YouTube.
+2. Tabel Youtuber:
+- id_youtuber: Primary key yang menjadi identitas unik untuk setiap Youtuber.
+- nama_youtuber: Kolom yang menyimpan nama dari Youtuber.
+3. Tabel Member:
+- id_member: Primary key yang menjadi identitas unik untuk setiap member.
+- nama_member: Kolom yang menyimpan nama dari member.
+- email: Kolom yang menyimpan alamat email dari member.
+- phone: Kolom yang menyimpan nomor telepon dari member.
+- join_date: Kolom yang menyimpan tanggal join member.
+- id_channel_youtube: Kolom ini adalah foreign key yang menghubungkan ke tabel Channel Youtube, merujuk pada id_channel_youtube.
 
+Penjelasan Relasi Antar Tabel:
+- Tabel channel_youtube memiliki relasi (Many-to-One) dengan tabel youtuber, yang berarti bahwa banyak channel YouTube dapat dimiliki oleh satu youtuber.
+- Tabel member memiliki relasi (Many-to-One) dengan tabel channel_youtube, yang berarti bahwa banyak member dapat terhubung ke satu channel YouTube.
 
 Program ini dirancang dengan menggunakan bahasa pemrograman PHP dan menerapkan pola MVC (Model, View, Controller). Program ini bertemakan Membership YouTube dan bertujuan untuk mengelola data Channel YouTube, data Youtuber, dan data Member. Fokus utama program ini adalah untuk memudahkan pengguna dalam menambah, mengedit, dan menghapus data Channel YouTube, data Youtuber, dan data Member. Berikut komponen-komponen utama dalam program ini:
 1. Model:
@@ -65,6 +84,20 @@ Program ini dirancang dengan menggunakan bahasa pemrograman PHP dan menerapkan p
 - Member.php: Mirip dengan ChannelYoutube.php dan Youtuber.php, ini adalah file pengontrol (controller) untuk entitas Member. Memuat instansiasi dari MemberController dan menangani logika untuk menampilkan halaman, menambah, mengedit, dan menghapus data member.
   
 # Penjelasan Alur
+Dalam aplikasi ini, pengguna diberikan kemudahan untuk mengelola data terkait dengan channel YouTube, youtuber, dan member melalui antarmuka web yang intuitif. Ketiga halaman utama, yaitu "Home/Daftar Channel YouTube", "Daftar Youtuber", dan "Daftar Member", menyajikan informasi yang relevan dengan entitas yang bersangkutan.
+1. Halaman Home/Daftar Channel Youtube
+- Pengguna akan melihat halaman utama yang berisi daftar channel YouTube.
+- Di halaman ini, mereka memiliki opsi untuk menambahkan data channel YouTube baru, mengedit data yang sudah ada, atau menghapus data channel YouTube yang tidak diinginkan.
+2. Halaman Daftar Youtuber
+- Ketika pengguna mengakses halaman ini, pengguna akan melihat daftar youtuber.
+- Pengguna memiliki opsi untuk menambahkan data youtuber baru, mengedit informasi youtuber yang sudah ada, atau menghapus youtuber dari daftar.
+3. Halaman Daftar Member
+- Saat mengunjungi halaman ini, pengguna akan melihat daftar member.
+- Pengguna memiliki opsi untuk menambahkan data member baru, mengedit informasi member yang sudah ada, atau menghapus member dari daftar.
+
+Ketika pengguna memilih tombol "tambah baru", maka program akan menampilkan formulir penambahan data dan pengguna diminta untuk mengisi data baru.
+Ketika pengguna memilih tombol "edit", maka program akan menampilkan formulir pengubahan data dan pengguna diminta untuk mengubah data yang sudah ada.
+Ketika pengguna memilih tombol "hapus", maka data akan dihapus dari daftar dan database
 
 # Dokumentasi Program
 Tabel Channel Youtube, memiliki beberapa halaman:
